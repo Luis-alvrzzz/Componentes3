@@ -1,0 +1,69 @@
+<!-- Componente 0: Título -->
+<h1>Material Angular</h1>
+
+<!-- Componente 1: Alternancia de diapositivas -->
+
+<mat-slide-toggle>Toggle me!</mat-slide-toggle><hr>
+
+<!-- Componente 2: Tarjeta (card) -->
+<mat-card>
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Producto 1</mat-card-title>
+        <mat-card-subtitle>Descripción del producto 1</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        Contenido del producto 1...
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button>Comprar</button>
+    </mat-card-actions>
+</mat-card><hr>
+
+<!-- Componente 3: Botón de alternancia -->
+<mat-button-toggle-group>
+    <mat-button-toggle value="left">Izquierda</mat-button-toggle>
+    <mat-button-toggle value="center">Centro</mat-button-toggle>
+    <mat-button-toggle value="right">Derecha</mat-button-toggle>
+</mat-button-toggle-group>
+<hr>
+<br>
+<!-- Componente 4: Insignia (badge) con icono de llamadas -->
+<span matBadge="8" matBadgePosition="after" matBadgeColor="accent">
+    <button mat-icon-button>
+        <mat-icon>call</mat-icon>
+    </button>
+</span>
+<hr>
+<!-- Componente 5: Checkbox en color verde -->
+<mat-checkbox color="primary">Check me!</mat-checkbox>
+<hr>
+<!-- Componente 6: Divider con contactos -->
+<mat-divider></mat-divider>
+<p>Contacto 1</p>
+<mat-divider></mat-divider>
+<p>Contacto 2</p>
+<mat-divider></mat-divider>
+<p>Contacto 3</p>
+<hr>
+<!-- Componente 7: Progress Spinner -->
+<mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+<hr>
+<!-- Componente 8: Input para título -->
+<mat-form-field>
+    <mat-label>Título</mat-label>
+    <input matInput placeholder="Ingrese un título">
+</mat-form-field>
+<hr>
+<!-- Componente 9: Progress Bar -->
+<mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+<hr>
+<!-- Componente 10: Extension Panel en español -->
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            Este es el contenido del panel de extensión
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <p>Este es el cuerpo del panel</p>
+</mat-expansion-panel>
